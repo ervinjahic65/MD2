@@ -648,7 +648,7 @@ div#icon-box-two {
 }
 
 #faqs-section .vc_tta.vc_general .vc_tta-panel-title a {
-    color: #FFA500;
+    color: #000;
 }
 
 #faqs-section .vc_tta-panel-body {
@@ -656,7 +656,8 @@ div#icon-box-two {
     font-family: 'Pacifico', sans-serif;
     font-size: 14px;
     padding: 40px;
-    color: #FFA500;
+    color: #FFF;
+    background-color: #FFA500;
 }
 
 #faqs-section .vc_tta.vc_general .vc_tta-icon {
