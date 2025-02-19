@@ -1625,8 +1625,12 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
     padding-bottom: 0px
 }
 
+p.p1 {
+    color: #FFA500 !important;
+}
+
 #site-header {
-    background-color: #FFA500
+    background-color: #FFA500;
 }
 
 #site-header-sticky-wrapper {
