@@ -1246,7 +1246,6 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
     transform: translate(10%, 40%);
     z-index: 2;
     width: 80%;
@@ -1626,7 +1625,11 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
 }
 
 p.p1 {
-    color: #FFA500 !important;
+    color: #292826 !important;
+}
+
+.hvr-sink:hover {
+    cursor: pointer !important;
 }
 
 #site-header {
