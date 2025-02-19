@@ -587,7 +587,7 @@ div#icon-box-one .wpb_column .wpb_wrapper a.vcex-button.theme-button {
 }
 
 #locum-rates table.tablepress td strong {
-    color: #21e9f0;
+    color: #E97451;
     font-weight: 400;
 }
 
@@ -615,7 +615,7 @@ div#icon-box-two {
 }
 
 #icon-box-two .vcex-module.vcex-icon-box:hover .vcex-icon-box-icon {
-    background: #21e9f0 !important;
+    background: #E97451 !important;
     color: #07182c !important;
 }
 
@@ -661,7 +661,7 @@ div#icon-box-two {
 
 #faqs-section .vc_tta.vc_general .vc_tta-icon {
     background: #07182c;
-    color: #21e9f0;
+    color: #E97451;
     padding: 10px;
     border-radius: 100%;
 }

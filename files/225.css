@@ -83,7 +83,7 @@ form.wpcf7-form textarea {
 
 form.wpcf7-form input.wpcf7-submit {
     font-size: 14px;
-    background: #21e9f0;
+    background: #E97451;
     color: #fff;
     border: 1px solid #1bb18e;
     transition: .2s;
@@ -111,7 +111,7 @@ form.wpcf7-form  .wpcf7-form-heading {
   }
 .banner-btn a{
    color: white;
-    background: #21e9f0;
+    background: #E97451;
     border: none;
     box-shadow: 0 2px 3px #333;
     /*margin: 2em 0;*/
@@ -183,7 +183,7 @@ html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active {
     height: 40px;
     padding: 0 0 2px 0!important;
     line-height: 0!important;
-    background: #21e9f0;
+    background: #E97451;
     border-radius: 100px;
     font-weight: 600;
     font-family: 'Pacifico',sans-serif!important;
