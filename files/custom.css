@@ -569,7 +569,7 @@ div#icon-box-one .wpb_column .wpb_wrapper a.vcex-button.theme-button {
 #locum-rates thead,
 #locum-rates table.tablepress thead th,
 #locum-rates table.tablepress .odd td {
-    background: #0a2038;
+    background: #E97451;
     color: #fff;
     font-weight: 400;
     border: none;
@@ -616,7 +616,7 @@ div#icon-box-two {
 
 #icon-box-two .vcex-module.vcex-icon-box:hover .vcex-icon-box-icon {
     background: #E97451 !important;
-    color: #07182c !important;
+    color: #FFA500 !important;
 }
 
 #icon-box-two .vc_col-sm-4 .vc_column-inner {
@@ -644,11 +644,11 @@ div#icon-box-two {
 
 #faqs-section .vc_tta.vc_general .vc_tta-panel-title {
     font-family: 'Pacifico', sans-serif;
-    color: #07182c;
+    color: #FFA500;
 }
 
 #faqs-section .vc_tta.vc_general .vc_tta-panel-title a {
-    color: #07182c;
+    color: #FFA500;
 }
 
 #faqs-section .vc_tta-panel-body {
@@ -656,11 +656,11 @@ div#icon-box-two {
     font-family: 'Pacifico', sans-serif;
     font-size: 14px;
     padding: 40px;
-    color: #07182c;
+    color: #FFA500;
 }
 
 #faqs-section .vc_tta.vc_general .vc_tta-icon {
-    background: #07182c;
+    background: #FFA500;
     color: #E97451;
     padding: 10px;
     border-radius: 100%;
@@ -674,7 +674,7 @@ div#icon-box-two {
     width: auto;
     font-family: 'Pacifico', sans-serif !important;
     padding: 30px;
-    background: #07182c !important;
+    background: #FFA500 !important;
 }
 
 #form-section label._form-label {
@@ -687,7 +687,7 @@ div#icon-box-two {
 #form-section select,
 #form-section textarea:not(.g-recaptcha-response) {
     padding: 15px 10px;
-    color: #07182c !important;
+    color: #FFA500 !important;
     font-family: 'Pacifico', sans-serif !important;
     border-radius: 0;
     margin-bottom: 10px;
@@ -1188,7 +1188,7 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
 .vc_custom_1717379561068 {
     padding-top: 50px !important;
     padding-bottom: 20px !important;
-    background-color: #07182c !important;
+    background-color: #FFA500 !important;
 }
 
 .vc_custom_1637871345547 {
@@ -1206,7 +1206,7 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
 .vc_custom_1637832872423 {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
-    background-color: #07182c !important;
+    background-color: #FFA500 !important;
 }
 
 .vc_custom_1637835950890 {
@@ -1626,31 +1626,31 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
 }
 
 #site-header {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 #site-header-sticky-wrapper {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 #site-header-sticky-wrapper.is-sticky #site-header {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 .boxed-main-layout #site-header-sticky-wrapper.is-sticky #site-header {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 .footer-has-reveal #site-header {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 #searchform-header-replace {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 .wpex-has-vertical-header #site-header {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 :root {
@@ -1677,7 +1677,7 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
 
 #sidr-main,
 .sidr-class-dropdown-menu ul {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 #sidr-main {
@@ -1687,12 +1687,12 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
 }
 
 #footer {
-    --wpex-surface-1: #06182b;
-    background-color: #06182b
+    --wpex-surface-1: #FFA500;
+    background-color: #FFA500
 }
 
 #footer-bottom {
-    background-color: #06182b
+    background-color: #FFA500
 }
 
 .wpex-dhover-0:hover,
@@ -1707,7 +1707,7 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
 		.wpex-dhover-5:hover,
 		.wpex-dhover-6:hover,
 		.wpex-dhover-7:hover {
-			background: #0a2038 !important;
+			background: #E97451 !important;
 		}
 
 		.wpex-dhover-9:hover {
