@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới Thiệu - FINN Care Health</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo and Company Name -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">Trang chủ</a>
+          <a href="about.html" class="hover:text-gray-300">Giới thiệu</a>
+          <a href="contact.html" class="hover:text-gray-300">Liên hệ</a>
+          <a href="privacy.html" class="hover:text-gray-300">Chính sách bảo mật</a>
+          <a href="terms.html" class="hover:text-gray-300">Điều khoản và Điều kiện</a>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">Trang chủ</a>
+          <a href="about.html" class="hover:text-gray-300">Giới thiệu</a>
+          <a href="contact.html" class="hover:text-gray-300">Liên hệ</a>
+          <a href="privacy.html" class="hover:text-gray-300">Chính sách bảo mật</a>
+          <a href="terms.html" class="hover:text-gray-300">Điều khoản và Điều kiện</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto p-6 bg-white shadow-md my-6">
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">Giới Thiệu</h1>
+      <div class="text-gray-700 leading-relaxed space-y-6">
+        <p>
+          Tại FINN Care Health, sứ mệnh của chúng tôi là mang đến dịch vụ chăm sóc nhân ái và cá nhân hóa cho người cao tuổi ngay tại nhà của họ. Chúng tôi tin rằng mỗi người già đều xứng đáng được đối xử với phẩm giá, sự tôn trọng và một môi trường nuôi dưỡng hỗ trợ cả về thể chất lẫn tinh thần. Được thành lập dựa trên ý tưởng kết nối giữa công nghệ chăm sóc sức khỏe hiện đại và sự quan tâm truyền thống, tổ chức của chúng tôi đã phát triển thành một nhà cung cấp dịch vụ chăm sóc tại nhà và telehealth đáng tin cậy. Cam kết về chất lượng đã thúc đẩy chúng tôi không ngừng đổi mới và cải tiến dịch vụ để đảm bảo mỗi người cao tuổi nhận được sự chăm sóc tốt nhất có thể. Chúng tôi nỗ lực tạo ra tác động tích cực mỗi ngày bằng cách xây dựng một không gian hỗ trợ tôn vinh cuộc sống và kinh nghiệm của khách hàng.
+        </p>
+        <br>
+        <p>
+          Đội ngũ của chúng tôi gồm các nhân viên chăm sóc có kinh nghiệm, các chuyên gia y tế lành nghề và đội ngũ hỗ trợ tận tâm, cùng hợp tác để thiết kế các kế hoạch chăm sóc cá nhân hóa phù hợp với nhu cầu riêng của từng khách hàng. Chúng tôi cung cấp các cuộc kiểm tra sức khỏe định kỳ, quản lý thuốc men và hỗ trợ chuyên sâu cho các bệnh mãn tính, tích hợp liền mạch giữa các giải pháp telehealth tiên tiến với các chuyến thăm tận nhà cá nhân. Bằng việc liên tục cập nhật đào tạo và áp dụng các công nghệ y tế mới nhất, chúng tôi đảm bảo rằng dịch vụ của mình luôn đi đầu trong lĩnh vực chăm sóc người cao tuổi. Cách tiếp cận chủ động này cho phép chúng tôi đưa ra các tùy chọn lịch trình linh hoạt và điều chỉnh kế hoạch chăm sóc sao cho phù hợp với lối sống và yêu cầu riêng của từng khách hàng.
+        </p>
+        <br>
+        <p>
+          Sự minh bạch và tin cậy là nền tảng của mối quan hệ giữa chúng tôi với khách hàng và gia đình họ. Tại FINN Care Health, chúng tôi duy trì giao tiếp rõ ràng về dịch vụ, giá cả và các chiến lược chăm sóc, đảm bảo rằng mỗi gia đình đều được thông tin đầy đủ và tự tin trong các quyết định của mình. Cách tiếp cận hợp tác của chúng tôi bao gồm lắng nghe nhu cầu và sở thích riêng của mỗi người cao tuổi, cho phép chúng tôi xây dựng các giải pháp chăm sóc vừa hiệu quả vừa nhân ái. Bằng cách thúc đẩy đối thoại mở và sự tôn trọng lẫn nhau, chúng tôi xây dựng các mối quan hệ lâu dài tạo ra một mạng lưới hỗ trợ cho tất cả các bên liên quan. Cam kết cung cấp thông tin rõ ràng, trung thực là cốt lõi của dịch vụ chăm sóc xuất sắc mà chúng tôi mang lại.
+        </p>
+        <br>
+        <p>
+          Tác động tích cực của công việc của chúng tôi được phản ánh qua những lời chứng thực chân thành từ các gia đình đã trải nghiệm dịch vụ của chúng tôi. Khách hàng thường chia sẻ những câu chuyện về sự cải thiện về sức khỏe, tăng cường sự độc lập và sự an tâm khi biết rằng luôn có sự hỗ trợ chuyên gia sẵn sàng. Cách tiếp cận toàn diện của chúng tôi không chỉ giải quyết sức khỏe thể chất của người cao tuổi mà còn quan tâm đến nhu cầu tinh thần và xã hội của họ thông qua các cuộc kiểm tra định kỳ, các hoạt động gắn kết và sự đồng hành tận tâm. Chúng tôi tin rằng mỗi tương tác là cơ hội để khẳng định cam kết đối với dịch vụ chăm sóc chất lượng, và nỗ lực của chúng tôi góp phần tạo nên cảm giác cộng đồng và sự gắn bó cho những người mà chúng tôi phục vụ.
+        </p>
+        <br>
+        <p>
+          Hướng tới tương lai, FINN Care Health cam kết đặt ra những tiêu chuẩn mới trong chăm sóc người cao tuổi bằng cách kết hợp các cải tiến chăm sóc sức khỏe hiện đại với những giá trị bền vững của lòng nhân ái và sự tôn trọng. Chúng tôi mời bạn khám phá các dịch vụ của chúng tôi và tìm hiểu cách tiếp cận cá nhân hóa của chúng tôi có thể tạo ra sự khác biệt có ý nghĩa đối với cuộc sống của người thân bạn. Cam kết liên tục về các thực hành đạo đức, cải tiến không ngừng và các giải pháp chăm sóc sáng tạo đảm bảo rằng chúng tôi luôn là đối tác tin cậy trong hành trình chăm sóc gia đình bạn. Với FINN Care Health bên cạnh, bạn có thể yên tâm về một trải nghiệm chăm sóc hỗ trợ, minh bạch và chất lượng cao, góp phần nâng cao cuộc sống của người cao tuổi mỗi ngày.
+        </p>
+        <br>
+      </div>
+    </main>       
+
+    <!-- Footer -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Company Info -->
+          <div>
+            <p class="mb-2">BRN: CR545721</p>
+            <p class="mb-2">Địa chỉ: 13 Tsut Kou Ngan South Street Tsik Sit, Hồng Kông</p>
+            <p class="mb-2">Điện thoại: 30990879</p>
+          </div>
+          <!-- Copyright -->
+          <div class="text-right">
+            <p>Copyright © 2025 FINN Care Health. Bảo lưu mọi quyền.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
