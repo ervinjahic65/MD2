@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이용 약관 - FINN Care Health</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- 헤더 -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- 로고 및 회사명 -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- 데스크탑 내비게이션 -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">홈</a>
+          <a href="about.html" class="hover:text-gray-300">회사 소개</a>
+          <a href="contact.html" class="hover:text-gray-300">문의하기</a>
+          <a href="privacy.html" class="hover:text-gray-300">개인정보처리방침</a>
+          <a href="terms.html" class="hover:text-gray-300">이용 약관</a>
+        </nav>
+        <!-- 모바일 햄버거 메뉴 버튼 -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- 모바일 내비게이션 메뉴 -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">홈</a>
+          <a href="about.html" class="hover:text-gray-300">회사 소개</a>
+          <a href="contact.html" class="hover:text-gray-300">문의하기</a>
+          <a href="privacy.html" class="hover:text-gray-300">개인정보처리방침</a>
+          <a href="terms.html" class="hover:text-gray-300">이용 약관</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 메인 섹션 -->
+    <main class="container mx-auto p-6 bg-white shadow-md my-6">
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">이용 약관</h1>
+      <div class="text-gray-700 leading-relaxed space-y-6">
+        <p>
+          FINN Care Health에 오신 것을 환영합니다. 본 이용 약관은 저희 웹사이트, 제품 및 서비스 이용에 관한 조건을 규정합니다. 저희 사이트에 접속하거나 이용함으로써, 귀하는 본 약관을 준수하고 동의하는 것으로 간주됩니다. 본 약관의 어떤 부분에도 동의하지 않으신다면, 저희 서비스를 이용하실 수 없습니다. 저희는 사전 통지 없이 언제든지 본 약관을 수정할 권리를 보유합니다.
+        </p>
+        <p>
+          <strong>약관 동의:</strong> 웹사이트 이용 시, 귀하는 만 18세 이상이며 법적 구속력이 있는 계약을 체결할 수 있음을 확인합니다. 서비스를 계속 이용함으로써 귀하는 본 약관의 변경 사항에 동의하는 것으로 간주되며, 정기적으로 약관을 확인하는 것은 귀하의 책임입니다.
+        </p>
+        <p>
+          <strong>지식 재산권:</strong> 본 웹사이트의 모든 콘텐츠(텍스트, 그래픽, 로고, 이미지, 소프트웨어 등)는 FINN Care Health 또는 그 라이선스 제공자의 소유이며 지식 재산권 법에 의해 보호됩니다. 사전 서면 허가 없이 본 콘텐츠를 복제, 수정, 배포 또는 전시하는 것은 금지되며, 무단 사용 시 법적 조치가 취해질 수 있습니다.
+        </p>
+        <p>
+          <strong>사용자 의무:</strong> 귀하는 본 웹사이트를 합법적인 목적으로만 이용할 것에 동의합니다. 사이트의 기능이나 보안을 방해하거나, 자동화된 시스템을 통해 콘텐츠에 접근 및 복사하는 행위를 해서는 안 됩니다. 귀하는 계정 정보의 기밀 유지와 귀하의 계정 하에서 발생하는 모든 활동에 대해 책임을 집니다.
+        </p>
+        <p>
+          <strong>책임의 제한:</strong> FINN Care Health는 웹사이트 이용으로 발생하는 직접적, 간접적, 우발적, 특별 또는 결과적 손해에 대해 어떠한 책임도 지지 않습니다. 저희는 제공되는 정보의 완전성이나 정확성에 대해 어떠한 보증도 하지 않으며, 서비스 이용은 전적으로 귀하의 책임 하에 이루어집니다.
+        </p>
+        <p>
+          <strong>수정 및 준거법:</strong> 저희는 언제든지 본 이용 약관을 수정할 권리를 보유합니다. 모든 변경 사항은 이 페이지에 게시되며, 사이트 이용을 지속하는 경우 변경 사항에 동의하는 것으로 간주됩니다. 본 약관은 해당 관할 구역의 법률에 따라 해석 및 적용되며, 관련 분쟁은 해당 법원에서 해결됩니다.
+        </p>
+        <p>
+          FINN Care Health의 웹사이트에 접속함으로써, 귀하는 본 이용 약관을 읽고 이해하였으며 이에 구속됨을 확인합니다. 본 약관과 관련하여 궁금한 사항이 있으시면 언제든지 문의해 주시기 바랍니다.
+        </p>
+      </div>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- 회사 정보 -->
+          <div>
+            <p class="mb-2">법인 등록 번호: 4010501096087</p>
+            <p class="mb-2">주소: 서울특별시 중구 서소문동 21-1</p>
+            <p class="mb-2">전화: +34 986 227 374</p>
+          </div>
+          <!-- 저작권 -->
+          <div class="text-right">
+            <p>Copyright © 2025 FINN Care Health. 판권 소유.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 모바일 메뉴 토글을 위한 자바스크립트 -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
