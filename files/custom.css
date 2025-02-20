@@ -1231,7 +1231,6 @@ div#quiz-box form input.qsm-btn.qsm-submit-btn.qmn_btn:hover {
     padding-bottom: 30px !important;
     padding-left: 15px !important;
     background-image: url('./hero.jpg');
-    filter: blur(0.5px) !important;
   
     /* Full height */
     height: 100%;
