@@ -1745,3 +1745,54 @@ p.p1 {
                 transform: translate(10%, 0%) !important;
             }
         }
+
+        #testimonials {
+            padding: 2rem 1rem;
+            background-color: #f9f9f9;
+        }
+          .testimonial-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-left: calc(35%);
+          }
+          .testimonial {
+            background-color: #E97451;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            min-width: 300px;
+          }
+          .testimonial p {
+            margin-bottom: 1rem;
+            font-style: italic;
+            color: #000;
+          }
+          .testimonial h3 {
+            margin: 0;
+            font-size: 1.245rem;
+            font-weight: 600;
+            color: #111111;
+          }
+          /* Desktop Styles */
+          @media (min-width: 768px) {
+            .testimonial-container {
+              flex-direction: row;
+            }
+            .testimonial {
+              flex: 1;
+              margin: 0 0.5rem;
+            }
+          }
+          /* Mobile Styles */
+          @media (max-width: 767px) {
+            .testimonial {
+              margin: 0 auto;
+              max-width: 90%;
+            }
+            .testimonial-container {
+                margin-left: 0 !important;
+            }
+          }
