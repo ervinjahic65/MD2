@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>เกี่ยวกับเรา - The Health Part</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo and Company Name -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">หน้าแรก</a>
+          <a href="about.html" class="hover:text-gray-300">เกี่ยวกับเรา</a>
+          <a href="contact.html" class="hover:text-gray-300">ติดต่อเรา</a>
+          <a href="privacy.html" class="hover:text-gray-300">นโยบายความเป็นส่วนตัว</a>
+          <a href="terms.html" class="hover:text-gray-300">ข้อกำหนดและเงื่อนไข</a>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">หน้าแรก</a>
+          <a href="about.html" class="hover:text-gray-300">เกี่ยวกับเรา</a>
+          <a href="contact.html" class="hover:text-gray-300">ติดต่อเรา</a>
+          <a href="privacy.html" class="hover:text-gray-300">นโยบายความเป็นส่วนตัว</a>
+          <a href="terms.html" class="hover:text-gray-300">ข้อกำหนดและเงื่อนไข</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto p-6 bg-white shadow-md my-6">
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">เกี่ยวกับเรา</h1>
+      <div class="text-gray-700 leading-relaxed space-y-6">
+        <p>
+          ที่ The Health Part ภารกิจของเราคือการมอบการดูแลที่เต็มไปด้วยความห่วงใยและเฉพาะบุคคลแก่ผู้สูงอายุในบรรยากาศอบอุ่นที่บ้านของตนเอง เราเชื่อว่าทุกคนสมควรได้รับเกียรติยศ ความเคารพ และสภาพแวดล้อมที่เอื้ออาทรซึ่งสนับสนุนทั้งสุขภาพกายและใจ ด้วยแนวคิดที่จะเชื่อมโยงเทคโนโลยีการดูแลสุขภาพสมัยใหม่เข้ากับการดูแลแบบดั้งเดิม องค์กรของเราได้เติบโตขึ้นเป็นผู้ให้บริการดูแลที่บ้านและบริการดูแลทางไกลที่ได้รับความไว้วางใจ ความมุ่งมั่นในความเป็นเลิศผลักดันให้เรานำเสนอแนวทางใหม่ๆ และพัฒนาบริการอย่างต่อเนื่อง เพื่อให้ผู้สูงอายุได้รับการดูแลที่มีคุณภาพสูงสุด เรามุ่งมั่นที่จะสร้างผลกระทบในทางบวกทุกวันด้วยการสร้างบรรยากาศที่เอื้ออาทรและเคารพประสบการณ์ชีวิตของลูกค้าทุกคน
+        </p>
+        <br>
+        <p>
+          ทีมงานของเราประกอบไปด้วยผู้ดูแลที่มีประสบการณ์ ผู้เชี่ยวชาญทางการแพทย์ที่มีทักษะ และเจ้าหน้าที่สนับสนุนที่มุ่งมั่นทำงานร่วมกันในการออกแบบแผนการดูแลเฉพาะบุคคลที่ตอบสนองความต้องการเฉพาะของลูกค้าแต่ละราย เรามีบริการตรวจสุขภาพประจำวัน การจัดการยา และการสนับสนุนเฉพาะด้านสำหรับโรคเรื้อรัง โดยผสานรวมเทคโนโลยีการดูแลทางไกลที่ทันสมัยเข้ากับการเยี่ยมบ้านอย่างลงตัว ด้วยการอัพเดตการฝึกอบรมอย่างต่อเนื่องและการนำเทคโนโลยีทางการแพทย์ล่าสุดมาใช้ เราจึงสามารถให้บริการที่ทันสมัยและปรับเปลี่ยนแผนการดูแลให้เข้ากับไลฟ์สไตล์และความต้องการของลูกค้าได้อย่างแท้จริง
+        </p>
+        <br>
+        <p>
+          ความโปร่งใสและความไว้วางใจเป็นรากฐานของความสัมพันธ์ระหว่างเราและลูกค้าพร้อมกับครอบครัว ที่ The Health Part เรามีการสื่อสารที่ชัดเจนเกี่ยวกับบริการ ราคา และกลยุทธ์การดูแล เพื่อให้ครอบครัวทุกคนได้รับข้อมูลและมั่นใจในข้อเสนอของเรา แนวทางการทำงานร่วมกันของเรามีการรับฟังความต้องการและความชอบเฉพาะบุคคลของผู้สูงอายุ เพื่อให้เราสามารถออกแบบแนวทางการดูแลที่มีประสิทธิภาพและเอื้ออาทร ด้วยการส่งเสริมการสื่อสารอย่างเปิดเผยและความเคารพซึ่งกันและกัน เราจึงสร้างความสัมพันธ์ที่ยาวนานและเครือข่ายสนับสนุนที่เข้มแข็งสำหรับทุกคน ข้อสัญญาที่มุ่งมั่นในความโปร่งใสและข้อมูลที่ชัดเจนนี้อยู่ที่ใจกลางของการดูแลที่ยอดเยี่ยมที่เรามอบให้
+        </p>
+        <br>
+        <p>
+          ผลกระทบในทางบวกของงานของเราสะท้อนให้เห็นผ่านคำรับรองจากครอบครัวที่ได้สัมผัสกับการดูแลของเราโดยตรง ลูกค้าบ่อยครั้งเล่าเรื่องราวเกี่ยวกับการฟื้นฟูสุขภาพ ความเป็นอิสระที่เพิ่มขึ้น และความอุ่นใจที่มาจากการมีผู้ช่วยที่เชี่ยวชาญพร้อมให้บริการเสมอ แนวทางแบบบูรณาการของเราไม่เพียงแต่ดูแลสุขภาพกายของผู้สูงอายุ แต่ยังดูแลด้านอารมณ์และสังคมผ่านการเยี่ยมเยือนเป็นประจำ กิจกรรมที่สร้างสรรค์ และมิตรภาพที่อบอุ่น เราเชื่อว่าทุกการปฏิสัมพันธ์เป็นโอกาสที่จะยืนยันความมุ่งมั่นในการดูแลคุณภาพ และความพยายามของเราช่วยสร้างความรู้สึกของชุมชนและการเป็นส่วนหนึ่งสำหรับผู้ที่เราให้บริการ
+        </p>
+        <br>
+        <p>
+          มองไปยังอนาคต The Health Part มุ่งมั่นที่จะกำหนดมาตรฐานใหม่ในการดูแลผู้สูงอายุโดยผสานนวัตกรรมทางการแพทย์สมัยใหม่กับค่านิยมแห่งความเอื้ออาทรและความเคารพ เราขอเชิญคุณสำรวจบริการของเราและค้นพบว่าแนวทางเฉพาะบุคคลของเราสามารถสร้างความแตกต่างที่มีความหมายในชีวิตของคนที่คุณรักได้อย่างไร ความมุ่งมั่นอย่างต่อเนื่องในแนวทางปฏิบัติที่มีจริยธรรม การพัฒนาอย่างต่อเนื่อง และนวัตกรรมในการดูแลของเราช่วยให้เราเป็นพันธมิตรที่ไว้วางใจในการเดินทางของครอบครัว ด้วย The Health Part คุณสามารถมั่นใจได้ว่าจะได้รับประสบการณ์การดูแลที่สนับสนุน โปร่งใส และมีคุณภาพสูงที่ช่วยยกระดับชีวิตของผู้สูงอายุในทุกๆ วัน
+        </p>
+        <br>
+      </div>
+    </main>       
+
+    <!-- Footer -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Company Info -->
+          <div>
+            <p class="mb-2">หมายเลขบริษัท: 00943935</p>
+            <p class="mb-2">ที่อยู่: Lime St, London EC3M 7HR, UK</p>
+            <p class="mb-2">หมายเลขโทรศัพท์: 01632 960189</p>
+          </div>
+          <!-- Copyright -->
+          <div class="text-right">
+            <p>ลิขสิทธิ์ © 2025 The Health Part. สงวนลิขสิทธิ์ทั้งหมด.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
